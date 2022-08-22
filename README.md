@@ -15,7 +15,7 @@ docker login -u sovu
 
 ```
 
-1. Tag your image build
+2. Tag your image build
 
 my image name here is : **mylocalimage** and by default it has tag : **latest**and my username is : **sovu** as registered with docker cloud, and I created a public repository named : **dockerhub**
 
@@ -28,7 +28,7 @@ docker tag mylocalimage:latest sovu/dockerhub:myfirstimagepush
 
 ```
 
-1. Pushed the image to my personal docker repository as below
+3. Pushed the image to my personal docker repository as below
 
 ```
 docker push sovu/dockerhub:myfirstimagepush
